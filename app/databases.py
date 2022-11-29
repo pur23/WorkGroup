@@ -3,7 +3,7 @@ from sqlmodel import SQLModel, create_engine , Session
 
 
 sqlite_file_name = "database.db"
-sqlite_url = "mysql://root:Start2022@localhost/Fastapi"
+sqlite_url = "mysql://root:@localhost/Fastapi"
 
 engine = create_engine(sqlite_url)
 
